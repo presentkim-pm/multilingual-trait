@@ -1,5 +1,5 @@
 <p align="right">  
-  <a href="https://github.com/PresentKim/multilingual-resource-trait/blob/main/README_KOR.md">  
+  <a href="https://github.com/presentkim-pm/multilingual-trait/blob/main/README_KOR.md">  
     <img src="https://img.shields.io/static/v1?label=%ED%95%9C%EA%B5%AD%EC%96%B4&message=%EB%A1%9C+%EC%9D%BD%EA%B8%B0&labelColor=success">  
   </a>  
 </p>  
@@ -24,7 +24,7 @@ Therefore, need to name the language resource file according to the established 
   
 #### :sparkles: Example: Support multilingual in `config.yml` file
 ````php  
-use kim\present\traits\multilingualresource\MultilingualResourceTrait;  
+use kim\present\traits\multilingual\MultilingualResourceTrait;  
 
 //Example source for saving the config.yml file  
 class Main extends PluginBase{  
@@ -38,7 +38,7 @@ class Main extends PluginBase{
   
 > #### :sparkles: Use `MultilingualConfigTrait`  
 > ```php  
-> use kim\present\traits\multilingualresource\MultilingualConfigTrait;  
+> use kim\present\traits\multilingual\MultilingualConfigTrait;  
 > 
 > //Example source for saving the config.yml file  
 > class Main extends PluginBase{  

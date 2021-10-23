@@ -1,5 +1,5 @@
 <p align="right">  
-  <a href="https://github.com/PresentKim/multilingual-resource-trait/blob/main//README.md">  
+  <a href="https://github.com/presentkim-pm/multilingual-trait/blob/main//README.md">  
     <img src="https://img.shields.io/static/v1?label=read%20in&message=English&color=success">  
   </a>  
 </p>  
@@ -23,7 +23,7 @@
   
 #### :sparkles: 예제: `config.yml`파일 다국어 지원하기  
 ```php  
-use kim\present\traits\multilingualresource\MultilingualResourceTrait;  
+use kim\present\traits\multilingual\MultilingualResourceTrait;  
 
 //config.yml 파일을 저장하는 예제 소스  
 class Main extends PluginBase{  
@@ -37,7 +37,7 @@ class Main extends PluginBase{
   
 > #### :sparkles: `MultilingualConfigTrait`를 사용  
 > ```php  
-> use kim\present\traits\multilingualresource\MultilingualConfigTrait;  
+> use kim\present\traits\multilingual\MultilingualConfigTrait;  
 > 
 > //config.yml 파일을 저장하는 예제 소스  
 > class Main extends PluginBase{  

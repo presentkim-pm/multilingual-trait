@@ -1,8 +1,8 @@
 ---
-name : multilingual-resource-trait
-antigen : kim\present\traits\multilingualresource
-version : 1.0.0
-api : [ 3.0.0, 4.0.0 ]
-author : PresentKim
-description : Trait for multilingual resource file support
+name: multilingual-trait
+antigen: kim\present\traits\multilingual
+version: 1.1.0
+api: [ 3.0.0, 4.0.0 ]
+author: PresentKim
+description: Trait for multilingual resource and config support
 ...

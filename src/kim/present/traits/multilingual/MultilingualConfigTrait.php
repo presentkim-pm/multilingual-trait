@@ -22,11 +22,12 @@
  *
  * @noinspection PhpIllegalPsrClassPathInspection
  * @noinspection SpellCheckingInspection
+ * @noinspection PhpUnused
  */
 
 declare(strict_types=1);
 
-namespace kim\present\traits\multilingualresource;
+namespace kim\present\traits\multilingual;
 
 use pocketmine\plugin\PluginBase;
 
@@ -39,6 +40,7 @@ trait MultilingualConfigTrait{
      * @see PluginBase::saveDefaultConfig()
      */
     public function saveDefaultConfig() : bool{
+        /** @var PluginBase $this */
         return $this->saveResourceByLanguage("config.yml", "config/%s.yml");
     }
 }
