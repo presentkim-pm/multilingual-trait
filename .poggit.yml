@@ -1,0 +1,11 @@
+---
+build-by-default: true
+
+branches:
+  - main
+
+projects:
+  multilingual-trait:
+    model: virion
+    type: library
+...
